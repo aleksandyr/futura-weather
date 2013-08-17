@@ -11,9 +11,11 @@
 
 #define MY_UUID { 0x91, 0x41, 0xB6, 0x28, 0xBC, 0x89, 0x49, 0x8E, 0xB1, 0x47, 0x04, 0x9F, 0x49, 0xC0, 0x99, 0xAD }
 
+#include "version.h"
+
 PBL_APP_INFO(MY_UUID,
 			"Futura Weather", "Niknam Moslehi", // Modification of "Roboto Weather" by Martin Rosinski
-             1, 73, /* App version */
+             MAJOR_VERSION, MINOR_VERSION, /* App version */
              RESOURCE_ID_IMAGE_MENU_ICON,
              APP_INFO_WATCH_FACE);
 
